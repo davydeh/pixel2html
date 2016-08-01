@@ -1,0 +1,21 @@
+/**
+* Pixel2HTML - FrontEndTest
+*/
+
+@import 'variables';
+@import 'mixins';
+@import 'reset';
+
+// screens:start
+@import 'screens/_base';
+
+@import 'screens/screen_1';
+// screens:end
+
+// components:start
+@import 'components/header';
+@import 'components/footer';
+@import 'components/nav';
+@import 'components/forms';
+@import 'components/buttons';
+// components:end

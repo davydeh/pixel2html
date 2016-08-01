@@ -1,0 +1,42 @@
+.c-navigation {
+   display: block;
+   width: 400%;
+   background-color: $gray-dark;
+   margin: 0 0 0 -20px;
+   padding: 0 20px;
+
+   @include respond-to('small') {
+      width: auto;
+      background-color: transparent;
+      display: inline-block;
+   }
+
+   &__item {
+      display: block;
+      margin: 0 0 0 -20px;
+      padding-left: 20px;
+      line-height: 50px;
+
+
+      color: $white;
+
+      border-bottom: 1px solid $gray;
+
+      &:hover,
+      &focus {
+         color: $blue-dark;
+      }
+
+      @include respond-to('small') {
+         display: inline-block;
+         margin: 0 40px 0 0;
+         padding: 0;
+         line-height: inherit;
+
+         color: $gray-dark;
+
+         border: 0;
+      }
+   }
+
+}

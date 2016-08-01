@@ -3,4 +3,15 @@ $font-family-sans-serif: Roboto, "Source Sans Pro", "Helvetica Neue", Helvetica,
 $font-size-base:         16px;
 
 // Colors
-$gray-lightest: red;
+$gray-lightest: #f9f9f9;
+$white: #fff;
+$blue-dark: #39add1;
+$blue-light: #358ed7;
+$blue-lighter: #afdeec;
+
+// Media queries
+$breakpoints: (
+   'small':  (min-width: 768px),
+   'medium': (min-width: 992px),
+   'large':  (min-width: 1200px)
+);

@@ -1,0 +1,22 @@
+.logo {
+   color: $gray-darker;
+   display: inline-block;
+   font-size: 24px;
+   margin: 0 60px 0 0;
+   position: relative;
+
+   &:hover,
+   &:focus {
+      color: $gray-darker + 40;
+      text-decoration: none;
+   }
+
+   &:after {
+      content: '02';
+      position: absolute;
+      top: -6px;
+      right: -12px;
+      font-size: 10px;
+      font-weight: 600;
+   }
+}

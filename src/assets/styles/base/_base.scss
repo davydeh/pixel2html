@@ -1,6 +1,5 @@
 html {
    box-sizing: border-box;
-   background: red;
 }
 
 * {
@@ -14,4 +13,13 @@ html {
 
 body {
   background-color: $gray-lightest;
+}
+
+a {
+   color: $blue-dark;
+
+   &:hover,
+   &:focus {
+      text-decoration: none;
+   }
 }

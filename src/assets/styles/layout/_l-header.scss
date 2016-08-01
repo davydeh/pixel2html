@@ -1,0 +1,30 @@
+.l-header {
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+
+   padding: 0 20px;
+   height: 60px;
+   line-height: 60px;
+
+   background-color: $white;
+   text-shadow: 0 2px 0 1px rgba(0,0,0,0.5);
+
+   @include respond-to('medium') {
+      height: 100px;
+      line-height: 100px;
+   }
+
+   &__container {
+      padding: 0;
+   }
+
+   .logo {
+      display: inline-block;
+   }
+
+   &__navigation {
+      display: inline-block;
+   }
+}

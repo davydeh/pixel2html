@@ -1,21 +1,38 @@
-/**
-* Pixel2HTML - FrontEndTest
-*/
+/* abstracts */
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
 
-@import 'variables';
-@import 'mixins';
-@import 'reset';
 
-// screens:start
-@import 'screens/_base';
+/* vendors */
+@import 'vendor/bootstrap';
 
-@import 'screens/screen_1';
-// screens:end
 
-// components:start
-@import 'components/header';
-@import 'components/footer';
-@import 'components/nav';
-@import 'components/forms';
-@import 'components/buttons';
-// components:end
+/* base */
+@import 'base/reset';
+@import 'base/base';
+@import 'base/typography';
+
+
+/* layout */
+// @import 'layout/navigation';
+// @import 'layout/grid';
+// @import 'layout/header';
+// @import 'layout/footer';
+// @import 'layout/sidebar';
+// @import 'layout/forms';
+
+
+/* components */
+// @import 'components/buttons';
+// @import 'components/carousel';
+// @import 'components/cover';
+// @import 'components/dropdown';
+
+
+/* pages */
+// @import 'pages/home';
+// @import 'pages/contact';
+
+
+/* themes */
+// @import 'themes/theme';

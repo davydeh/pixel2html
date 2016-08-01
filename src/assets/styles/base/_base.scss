@@ -1,0 +1,17 @@
+html {
+   box-sizing: border-box;
+   background: red;
+}
+
+* {
+
+   &,
+   &:before,
+   &:after {
+      box-sizing: inherit;
+   }
+}
+
+body {
+  background-color: $gray-lightest;
+}

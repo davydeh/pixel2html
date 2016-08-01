@@ -29,7 +29,7 @@ gulp.task('main:styles', function() {
 
 
     .pipe(autoprefixer({
-      browsers: ['last 2 versions', 'iOS 8'],
+      browsers: ['last 2 versions', 'iOS 9'],
       cascade: false
     }))
     .pipe(gulp.dest('dist/stylesheets'))

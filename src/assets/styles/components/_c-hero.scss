@@ -1,0 +1,17 @@
+.c-hero {
+   overflow: hidden;
+   padding: 40px 0;
+
+   @include respond-to('small') {
+      padding: 100px 0;
+   }
+
+   &__splash {
+      width: 100%;
+      margin-bottom: 50px;
+
+      @include respond-to('small') {
+         border-radius: 20px;
+      }
+   }
+}

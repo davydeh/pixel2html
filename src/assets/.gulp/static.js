@@ -21,6 +21,10 @@ gulp.task('clean', function(cb) {
   ], cb);
 });
 
+gulp.task('clearCache', function (done) {
+    return cache.clearAll(done);
+});
+
 gulp.task('main:images', function() {
   return gulp.src('src/assets/images/**/*')
     .pipe(plumber({

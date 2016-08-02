@@ -1,12 +1,10 @@
-/**
- * Pixel2HTML - /FrontEndTest
- */
+$(document).ready(function(){
 
-var msg = 'Pixel2HTML - /FrontEndTest';
+   $('.c-features').slick({
+      dots: false,
+      infinite: true,
+      speed: 350,
+      cssEase: 'ease-in'
+   });
 
-function printLog(log){
-    'use strict';
-  return console && console.log(log);
-}
-
-printLog(msg);
+});

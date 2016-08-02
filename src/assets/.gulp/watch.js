@@ -20,11 +20,14 @@ gulp.task('watch', function() {
   ], ['main:styles']);
 
 
-  
+
   gulp.watch('src/assets/styles/vendor/**/**.scss', ['vendor:bootstrap:styles']);
   gulp.watch('src/assets/styles/vendor/**/**.js', ['vendor:bootstrap:scripts']);
   gulp.watch('src/assets/styles/vendor/**/fonts/**/*', ['vendor:bootstrap:fonts']);
-  
+
+  gulp.watch('src/assets/styles/vendor/**/**.scss', ['vendor:slick:styles']);
+  gulp.watch('src/assets/styles/vendor/**/**.js', ['vendor:slick:scripts']);
+  gulp.watch('src/assets/styles/vendor/**/fonts/**/*', ['vendor:slick:fonts']);
 
 
 });

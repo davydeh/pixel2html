@@ -1,9 +1,14 @@
 .c-navigation {
-   display: block;
+   display: none;
    width: 400%;
    background-color: $gray-dark;
    margin: 0 0 0 -20px;
    padding: 0 20px;
+   vertical-align: top;
+
+   &--open {
+      display: block;
+   }
 
    @include respond-to('small') {
       width: auto;
@@ -15,8 +20,8 @@
       display: block;
       margin: 0 0 0 -20px;
       padding-left: 20px;
+      font-size: 14px;
       line-height: 50px;
-
 
       color: $white;
 
@@ -33,7 +38,7 @@
          padding: 0;
          line-height: inherit;
 
-         color: $gray-dark;
+         color: $text-light;
 
          border: 0;
       }

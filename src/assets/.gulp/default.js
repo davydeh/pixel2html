@@ -10,8 +10,8 @@ var defaultGulp = [
   'main:scripts',
 
   'vendor:bootstrap',
-
   'vendor:jquery',
+  'vendor:slick',
 
 ];
 

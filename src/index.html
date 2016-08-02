@@ -11,31 +11,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-  <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheets/slick.min.css">
   <link rel="stylesheet" href="stylesheets/main.min.css">
-
 </head>
 
-<body>
+<body class="homepage">
   <!--[if lt IE 8]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-  <section class="content">
-     <header class="l-header">
-        <div class="l-header__container container">
-           <a href="/" class="logo">module</a>
-           <nav class="c-navigation l-header__navigation" role="navigation">
-              <a href="#" class="c-navigation__item">Features</a>
-              <a href="#" class="c-navigation__item">Pricing</a>
-              <a href="#" class="c-navigation__item">Learn more</a>
-              <a href="#" class="c-navigation__item">Contact sales</a>
-           </nav>
-        </div>
-     </header>
-  </section>
+   <header class="l-header">
+      <div class="l-header__container container u-clear-padding ">
+         <a href="/" class="logo">module</a>
+         <nav class="c-navigation l-header__navigation" role="navigation">
+           <a href="#" class="c-navigation__item">Features</a>
+           <a href="#" class="c-navigation__item">Pricing</a>
+           <a href="#" class="c-navigation__item">Learn more</a>
+           <a href="#" class="c-navigation__item">Contact sales</a>
+         </nav>
+      </div>
+   </header>
 
-  <script src="javascript/jquery.min.js"></script>
-  <script src="javascript/main.min.js"></script>
+   <div class="l-content">
+
+      <section class="c-hero container u-clear-padding">
+
+         <div class="c-headline-description">
+            <h1 class="c-headline-description__title u-text-center">The best way to work together</h1>
+            <p class="c-headline-description__description u-text-center">We design and develop software for funded startups and stablished companies. Here are just some examples of our work</p>
+         </div>
+
+         <img class="c-hero__splash" alt="Girl on with background" src="images/hero-splash.png" />
+
+         <div class="c-headline-description c-headline-description--with-icon c-headline-description--small col-sm-4">
+            <h1 class="c-headline-description__title">Keep your Data</h1>
+            <p class="c-headline-description__description">Enterprise-ready performance and controls.</p>
+         </div>
+
+         <div class="c-headline-description c-headline-description--with-icon c-headline-description--small col-sm-4">
+            <h1 class="c-headline-description__title">Prototype your Project</h1>
+            <p class="c-headline-description__description">24/7 proactive threat scanning to prevent attacks.</p>
+         </div>
+
+         <div class="c-headline-description c-headline-description--with-icon c-headline-description--small col-sm-4">
+            <h1 class="c-headline-description__title">Create smart texts</h1>
+            <p class="c-headline-description__description">24/7 proactive threat scanning to prevent attacks.</p>
+         </div>
+
+      </section>
+
+      <section class="c-features container u-clear-padding">
+         <img alt="Girl on with background" src="images/mac.png" />
+         <img alt="Girl on with background" src="images/mac.png" />
+         <img alt="Girl on with background" src="images/mac.png" />
+      </section>
+
+   </div>
+
+   <script src="javascript/jquery.min.js"></script>
+   <script src="javascript/slick.min.js"></script>
+   <script src="javascript/main.min.js"></script>
+
+
 </body>
 
 </html>

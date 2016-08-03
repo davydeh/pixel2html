@@ -19,6 +19,8 @@
   <!--[if lt IE 8]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
+
+  <!-- Layout object - Header -->
    <header class="l-header">
       <div class="l-header__container container u-clear-padding ">
          <a href="/" class="logo">module</a>
@@ -31,41 +33,165 @@
       </div>
    </header>
 
+   <!-- Layout object - Content -->
    <div class="l-content">
 
+
+      <!-- Hero component -->
       <section class="c-hero container u-clear-padding">
 
          <div class="c-headline-description">
             <h1 class="c-headline-description__title u-text-center">The best way to work together</h1>
-            <p class="c-headline-description__description u-text-center">We design and develop software for funded startups and stablished companies. Here are just some examples of our work</p>
+            <p class="c-headline-description__description c-headline-description__description--centered">We design and develop software for funded startups and stablished companies. Here are just some examples of our work</p>
          </div>
 
-         <img class="c-hero__splash" alt="Girl on with background" src="images/hero-splash.png" />
+         <img class="c-hero__splash" alt="Girl on white background" src="images/hero-splash.png" />
 
          <div class="c-headline-description c-headline-description--with-icon c-headline-description--small col-sm-4">
             <h1 class="c-headline-description__title">Keep your Data</h1>
             <p class="c-headline-description__description">Enterprise-ready performance and controls.</p>
+            <div class="c-headline-description__icon sprite-icons-data"></div>
          </div>
 
          <div class="c-headline-description c-headline-description--with-icon c-headline-description--small col-sm-4">
             <h1 class="c-headline-description__title">Prototype your Project</h1>
             <p class="c-headline-description__description">24/7 proactive threat scanning to prevent attacks.</p>
+            <div class="c-headline-description__icon sprite-icons-prototype"></div>
          </div>
 
          <div class="c-headline-description c-headline-description--with-icon c-headline-description--small col-sm-4">
             <h1 class="c-headline-description__title">Create smart texts</h1>
             <p class="c-headline-description__description">24/7 proactive threat scanning to prevent attacks.</p>
+            <div class="c-headline-description__icon sprite-icons-markup"></div>
          </div>
 
       </section>
+         <!-- End Hero component -->
 
+
+      <!-- Features (slider) component -->
       <section class="c-features container u-clear-padding">
-         <img alt="Girl on with background" src="images/mac.png" />
-         <img alt="Girl on with background" src="images/mac.png" />
-         <img alt="Girl on with background" src="images/mac.png" />
+
+         <div class="c-features__slider">
+
+            <div class="c-features__slide">
+               <img class="c-features__image col-sm-6" alt="Mac" src="images/mac.png" />
+               <div class="c-features__copy c-headline-description c-headline-description--medium col-sm-6">
+                  <h2 class="c-headline-description__title">Powerful extensions</h1>
+                  <p class="c-headline-description__description">This article is floated online with an aim to help you find the best dvd printing solution. Dvd printing is an important feature.</p>
+                  <a href="#" class="c-headline-description__link">Learn more <span class="glyphicon glyphicon-menu-right"></span></a>
+               </div>
+            </div>
+
+            <div class="c-features__slide">
+               <img class="c-features__image col-sm-6" alt="Mac" src="images/mac.png" />
+               <div class="c-features__copy c-headline-description c-headline-description--medium col-sm-6">
+                  <h2 class="c-headline-description__title">Powerful extensions</h1>
+                  <p class="c-headline-description__description">This article is floated online with an aim to help you find the best dvd printing solution. Dvd printing is an important feature.</p>
+                  <a href="#" class="c-headline-description__link">Learn more <span class="glyphicon glyphicon-menu-right"></span></a>
+               </div>
+            </div>
+
+            <div class="c-features__slide">
+               <img class="c-features__image col-sm-6" alt="Mac" src="images/mac.png" />
+               <div class="c-features__copy c-headline-description c-headline-description--medium col-sm-6">
+                  <h2 class="c-headline-description__title">Powerful extensions</h1>
+                  <p class="c-headline-description__description">This article is floated online with an aim to help you find the best dvd printing solution. Dvd printing is an important feature.</p>
+                  <a href="#" class="c-headline-description__link">Learn more <span class="glyphicon glyphicon-menu-right"></span></a>
+               </div>
+            </div>
+
+         </div>
+
+      </section>
+         <!-- End Features (slider) component -->
+
+
+      <!-- Pricing component -->
+      <section class="c-pricing">
+
+         <div class="c-pricing__container container u-clear-padding">
+
+            <div class="c-headline-description c-pricing__title">
+               <h1 class="c-headline-description__title u-text-center">Simple pricing</h1>
+               <p class="c-headline-description__description c-headline-description__description--centered">It seems from the moment you take your love of astronomy seriously, the thing that is on your mind is what kind.</p>
+            </div>
+
+            <div class="c-pricing__plans clearfix">
+
+               <section class="c-plan col-md-4 u-text-center">
+                  <header class="c-plan__header">
+                     <h3 class="c-plan__name">Basic</h3>
+                     <p class="c-plan__description">For a taste of our product</p>
+                  </header>
+                  <div class="c-plan__details">
+                     <h1 class="c-plan__price">0</h1>
+                     <p class="c-plan__microcopy">Always free</p>
+                     <p class="c-plan__copy">How to boost the design and developing process with help of four paws.</p>
+                  </div>
+                  <ul class="c-plan__feature-list">
+                     <li class="c-plan__feature">2GB of space</li>
+                     <li class="c-plan__feature">30 days of file recovery</li>
+                     <li class="c-plan__feature">MS Office 365 integration</li>
+                     <li class="c-plan__feature c-plan__feature--disabled">Unlimited third-party integration</li>
+                     <li class="c-plan__feature c-plan__feature--disabled">Remote wipe</li>
+                  </ul>
+                  <a href="#" class="c-plan__cta">Get started</a>
+               </section>
+
+               <section class="c-plan col-md-4 u-text-center">
+                  <header class="c-plan__header">
+                     <h3 class="c-plan__name">Professional</h3>
+                     <p class="c-plan__description">For a taste of our product</p>
+                  </header>
+                  <div class="c-plan__details">
+                     <h1 class="c-plan__price">8.99</h1>
+                     <p class="c-plan__microcopy">Per month</p>
+                     <p class="c-plan__copy">How to boost the design and developing process with help of four paws.</p>
+                  </div>
+                  <ul class="c-plan__feature-list">
+                     <li class="c-plan__feature">2GB of space</li>
+                     <li class="c-plan__feature">30 days of file recovery</li>
+                     <li class="c-plan__feature">MS Office 365 integration</li>
+                     <li class="c-plan__feature">Unlimited third-party integration</li>
+                     <li class="c-plan__feature c-plan__feature--disabled">Remote wipe</li>
+                  </ul>
+                  <a href="#" class="c-plan__cta">Get started</a>
+               </section>
+
+               <section class="c-plan c-plan--spotlight col-md-4 u-text-center">
+                  <header class="c-plan__header">
+                     <h3 class="c-plan__name">Business</h3>
+                     <p class="c-plan__description">For a taste of our product</p>
+                  </header>
+                  <div class="c-plan__details">
+                     <h1 class="c-plan__price">18.99</h1>
+                     <p class="c-plan__microcopy">Per month</p>
+                     <p class="c-plan__copy">How to boost the design and developing process with help of four paws.</p>
+                  </div>
+                  <ul class="c-plan__feature-list">
+                     <li class="c-plan__feature">2GB of space</li>
+                     <li class="c-plan__feature">30 days of file recovery</li>
+                     <li class="c-plan__feature">MS Office 365 integration</li>
+                     <li class="c-plan__feature">Unlimited third-party integration</li>
+                     <li class="c-plan__feature">Remote wipe</li>
+                  </ul>
+                  <a href="#" class="c-plan__cta">Get started</a>
+               </section>
+
+            </div>
+
+         </div>
+
+      </section>
+         <!-- End Hero component -->
+
+      <section class="c-sponsors">
+         
       </section>
 
    </div>
+      <!-- End layout object - Content -->
 
    <script src="javascript/jquery.min.js"></script>
    <script src="javascript/slick.min.js"></script>

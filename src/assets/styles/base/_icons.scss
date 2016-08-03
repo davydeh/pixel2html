@@ -1,0 +1,103 @@
+/* glue: 0.11.1 hash: 8afb9eb94b */
+/*
+ * Icons sprites
+ */
+.sprite-icons-data,
+.sprite-icons-prototype,
+.sprite-icons-markup {
+   background-image: url('./../images/icons.png');
+   background-repeat: no-repeat;
+}
+
+.sprite-icons-data {
+   background-position: 0 0;
+   width: 58px;
+   height: 47px;
+}
+
+.sprite-icons-prototype {
+   background-position: 0 -47px;
+   width: 54px;
+   height: 50px;
+}
+
+.sprite-icons-markup {
+   background-position: -58px 0;
+   width: 49px;
+   height: 50px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.0), screen and (min--moz-device-pixel-ratio: 1.0), screen and (-o-min-device-pixel-ratio: 100/100), screen and (min-device-pixel-ratio: 1.0), screen and (min-resolution: 1.0dppx) {
+   .sprite-icons-data,
+   .sprite-icons-prototype,
+   .sprite-icons-markup {
+      background-image: url('./../images/icons.png');
+      -webkit-background-size: 107px 97px;
+         -moz-background-size: 107px 97px;
+              background-size: 107px 97px;
+   }
+}
+
+/* glue: 0.11.1 hash: 5c817d77cb */
+/*
+ * Logos sprites
+ */
+.sprite-logos-motorola,
+.sprite-logos-evernote,
+.sprite-logos-brazzers,
+.sprite-logos-adobe,
+.sprite-logos-netflix,
+.sprite-logos-marvel {
+   background-image: url('./../images/logos.png');
+   background-repeat: no-repeat;
+}
+
+.sprite-logos-motorola {
+   background-position: 0 0;
+   width: 158px;
+   height: 32px;
+}
+
+.sprite-logos-evernote {
+   background-position: 0 -32px;
+   width: 142px;
+   height: 39px;
+}
+
+.sprite-logos-brazzers {
+   background-position: 0 -71px;
+   width: 142px;
+   height: 32px;
+}
+
+.sprite-logos-adobe {
+   background-position: 0 -103px;
+   width: 108px;
+   height: 25px;
+}
+
+.sprite-logos-netflix {
+   background-position: 0 -128px;
+   width: 99px;
+   height: 28px;
+}
+
+.sprite-logos-marvel {
+   background-position: -158px 0;
+   width: 83px;
+   height: 37px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.0), screen and (min--moz-device-pixel-ratio: 1.0), screen and (-o-min-device-pixel-ratio: 100/100), screen and (min-device-pixel-ratio: 1.0), screen and (min-resolution: 1.0dppx) {
+   .sprite-logos-motorola,
+   .sprite-logos-evernote,
+   .sprite-logos-brazzers,
+   .sprite-logos-adobe,
+   .sprite-logos-netflix,
+   .sprite-logos-marvel {
+      background-image: url('./../images/logos.png');
+      -webkit-background-size: 241px 156px;
+      -moz-background-size: 241px 156px;
+      background-size: 241px 156px;
+   }
+}

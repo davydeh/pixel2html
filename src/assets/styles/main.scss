@@ -11,6 +11,7 @@
 @import 'base/base';
 @import 'base/typography';
 @import 'base/utilities';
+@import 'base/icons';
 
 
 /* layout */
@@ -24,13 +25,17 @@
 @import 'components/c-logo';
 @import 'components/c-headline-description';
 @import 'components/c-hero';
+@import 'components/c-features';
+@import 'components/c-pricing';
+@import 'components/c-plan';
+@import 'components/c-sponsors';
 // @import 'components/carousel';
 // @import 'components/cover';
 // @import 'components/dropdown';
 
 
 /* pages */
-// @import 'pages/home';
+@import 'pages/home';
 // @import 'pages/contact';
 
 

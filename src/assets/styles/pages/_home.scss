@@ -1,4 +1,28 @@
-/**
-* Pixel2HTML - FrontEndTest
-* Screen 1
-*/
+.homepage {
+
+   .slick-dots {
+      position: relative;
+      text-align: left;
+      bottom: -10px;
+      padding-left: 5px;
+
+      @include respond-to('small') {
+         left: 50%;
+         bottom: 50px;
+      }
+
+      @include respond-to('medium') {
+         padding-left: 30px;
+      }
+
+      @include respond-to('large') {
+         bottom: 80px;
+      }
+   }
+
+   // Specificity need to reset slick default margin bottom
+   .slick-slider.slick-dotted {
+      margin-bottom: 0;
+   }
+
+}

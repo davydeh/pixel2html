@@ -1,0 +1,23 @@
+.c-pricing {
+   padding: 40px 20px 0;
+   margin: 0 -20px -100px;
+   background-color: $gray-lightest;
+
+   &__title {
+      margin-bottom: 40px;
+   }
+
+
+   @include respond-to('small') {
+      padding-top: 130px;
+
+      &__title {
+         margin-bottom: 80px;
+      }
+
+      &__plans {
+         overflow: hidden;
+         border-radius: 10px;
+      }
+   }
+}

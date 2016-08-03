@@ -1,0 +1,25 @@
+.c-features {
+   max-width: 95%;
+   padding: 40px 0;
+
+   @include respond-to('small') {
+      padding: 100px 0;
+   }
+
+   &__image {
+      max-width: 100%;
+      margin-bottom: 30px;
+   }
+
+   &__copy {
+      padding-top: 10px;
+
+      @include respond-to('medium') {
+         padding: 30px 0 0 40px;
+      }
+
+      @include respond-to('large') {
+         padding-top: 60px;
+      }
+   }
+}

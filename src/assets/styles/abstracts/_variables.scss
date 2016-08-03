@@ -41,6 +41,19 @@ $gray-lightest:  #f9f9f9;
 $gray-blue:      #5e6977;
 $gray-blue-dark: #545e6b;
 
+// Overriding Slick arrows
+$slick-font-family: 'Glyphicons Halflings';
+$slick-arrow-color: black !default;
+
+$slick-next-character: "\e080" !default;
+$slick-prev-character: "\e079" !default;
+
+$slick-dot-character: "\2022" !default;
+
+$slick-dot-size: 6px !default;
+$slick-opacity-default: 0.75 !default;
+
+
 // Media queries
 $breakpoints: (
    'small':  (min-width: 768px),

@@ -12,22 +12,29 @@
    }
 
    &__description {
-      margin: 0 auto 30px;
-      max-width: 600px;
+      margin: 0 0 30px;
       font-size: 18px;
       font-weight: 300;
       line-height: 1.5;
       color: $text-dark;
 
-      @include respond-to('small') {
-         margin-bottom: 60px;
+      &--centered {
+         text-align: center;
+         max-width: 600px;
+         margin-right: auto;
+         margin-left: auto;
       }
+   }
+
+   .c-headline-description__link {
+      font-weight: 500;
+      color: $blue-dark;
    }
 
    &--small {
 
       .c-headline-description__title {
-         margin: 0 0 15px;
+         margin: 0 0 10px;
          font-size: 18px;
          font-weight: 400;
       }
@@ -40,9 +47,32 @@
 
    }
 
+   &--medium {
+
+      .c-headline-description__title {
+         margin: 0 0 15px;
+         font-size: 24px;
+         font-weight: 300;
+      }
+
+      .c-headline-description__description {
+         font-size: 16px;
+         font-weight: 400;
+         color: $text-light;
+      }
+
+   }
+
 
    &--with-icon {
       padding-left: 80px;
+      position: relative;
+   }
+
+   &__icon {
+      position: absolute;
+      left: 5px;
+      top: 0;
    }
 
 }

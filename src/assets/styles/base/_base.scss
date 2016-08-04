@@ -25,3 +25,8 @@ ul {
    margin: 0;
    padding: 0;
 }
+
+.container {
+   // Limit bootstrap containers' width
+   max-width: 100%;
+}

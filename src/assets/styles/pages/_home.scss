@@ -29,6 +29,12 @@
       }
    }
 
+   @include respond-to('medium') {
+      .slick-dots {
+         bottom: 50px;
+      }
+   }
+
    // Specificity need to reset slick default margin bottom
    .slick-slider.slick-dotted {
       margin-bottom: 0;

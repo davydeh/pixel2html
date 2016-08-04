@@ -17,29 +17,34 @@ $headings-font-weight:   300;
 
 
 // Defining colors
-$white:          #fff;
+$white:                #fff;
+$white-transparent:    rgba(255, 255, 255, 0.3);
+$white-transparent6:   rgba(255, 255, 255, 0.6);
 
-$text-dark:      #66717e;
-$text-light:     #86939e;
-$text-lighter:   #babfc5;
+$text-dark:            #66717e;
+$text-light:           #86939e;
+$text-lighter:         #babfc5;
 
-$headline-dark:  #494e52;
+$headline-dark:        #494e52;
 
-$blue-dark:      #39add1;
-$blue-light:     #358ed7;
-$blue-lighter:   #afdeec;
+$blue-dark:            #39add1;
+$blue-light:           #358ed7;
+$blue-lighter:         #afdeec;
 
-$green:          #7dc855;
+$green:                #7dc855;
 
-$gray-darker:    #222;
-$gray-dark:      #333;
-$gray:           #555;
-$gray-light:     #777;
-$gray-lighter:   #eee;
-$gray-lightest:  #f9f9f9;
+$gray-darker:          #222;
+$gray-dark:            #333;
+$gray:                 #555;
+$gray-light:           #777;
+$gray-lighter:         #eee;
+$gray-lightest:        #f9f9f9;
 
-$gray-blue:      #5e6977;
-$gray-blue-dark: #545e6b;
+$gray-blue:            #5e6977;
+$gray-blue-dark:       #545e6b;
+
+// Margins
+$default-margin: 30px;
 
 // Overriding Slick arrows
 $slick-font-family: 'Glyphicons Halflings';

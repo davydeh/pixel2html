@@ -1,13 +1,15 @@
 .c-pricing {
-   padding: 40px 20px 0;
-   margin: 0 -20px -100px;
+   padding: 40px $default-margin 0;
+   margin: 0 (-$default-margin) -100px;
    background-color: $gray-lightest;
 
    &__title {
       margin-bottom: 40px;
    }
 
-
+   /*
+   * Breakpoints section
+   */
    @include respond-to('small') {
       padding-top: 130px;
 
@@ -17,7 +19,7 @@
 
       &__plans {
          overflow: hidden;
-         border-radius: 10px;
+         border-radius: 6px;
       }
    }
 }

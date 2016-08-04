@@ -21,6 +21,7 @@
 
 
 /* components */
+@import 'components/c-button';
 @import 'components/c-navigation';
 @import 'components/c-logo';
 @import 'components/c-headline-description';
@@ -28,15 +29,13 @@
 @import 'components/c-features';
 @import 'components/c-pricing';
 @import 'components/c-plan';
-@import 'components/c-sponsors';
-// @import 'components/carousel';
-// @import 'components/cover';
-// @import 'components/dropdown';
+@import 'components/c-companies';
+@import 'components/c-language';
+@import 'components/c-site-sections';
 
 
 /* pages */
 @import 'pages/home';
-// @import 'pages/contact';
 
 
 /* themes */

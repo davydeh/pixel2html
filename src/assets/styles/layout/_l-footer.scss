@@ -1,0 +1,39 @@
+.l-footer {
+   position: relative;
+   margin: 0 (-$default-margin);
+   padding: 40px $default-margin 60px;
+   background-color: $gray-blue-dark;
+
+   &__description {
+      // padding-left: 90px;
+      margin-bottom: 30px;
+   }
+
+   &__copy {
+      font-size: 14px;
+      font-weight: 400;
+      color: $gray-lighter;
+      color: $white-transparent6;
+   }
+
+   &__icon {
+      // position: absolute;
+      // top: 0;
+      // left: 0;
+      float: left;
+      margin-right: 20px;
+   }
+
+   &__sections {
+      margin-left: -15px;
+   }
+
+   @include respond-to('small') {
+      padding: 60px 20px 100px;
+
+      &__sections {
+         margin-left: 0;
+      }
+   }
+
+}

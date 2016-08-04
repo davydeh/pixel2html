@@ -1,6 +1,7 @@
 .c-hero {
    overflow: hidden;
    padding: 40px 0;
+   max-width: 100%;
 
    @include respond-to('small') {
       padding: 100px 0;

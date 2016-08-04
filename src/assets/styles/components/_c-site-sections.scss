@@ -1,0 +1,37 @@
+.c-site-sections {
+   margin-bottom: 30px;
+   font-size: 14px;
+
+   &__title {
+      font-weight: 500;
+      color: $gray-lighter;
+      line-height: 1;
+      margin: 0 0 10px;
+   }
+
+   &__link {
+      display: block;
+      padding: 5px 0;
+      color: $gray-lighter;
+      color: $white-transparent;
+      font-size: 14px;
+      line-height: 1;
+
+      &:hover,
+      &:focus,
+      &:active {
+         color: $gray-lightest;
+      }
+   }
+
+   &__list {
+      text-align: center;
+   }
+
+   @include respond-to('small') {
+
+      &__list {
+         text-align: left;
+      }
+   }
+}

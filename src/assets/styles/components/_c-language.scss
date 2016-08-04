@@ -1,0 +1,76 @@
+.c-language {
+   position: relative;
+   max-width: 200px;
+
+   color: $gray-lighter;
+   color: $white-transparent;
+
+   &__select {
+      cursor: pointer;
+      position: relative;
+      border-radius: 3px;
+      padding: 5px 10px 5px 35px;
+
+      font-size: 14px;
+      font-weight: 500;
+
+      &:hover,
+      &:focus,
+      &:active {
+         background-color: $gray-blue;
+      }
+
+      &:before {
+         font-family: 'Glyphicons Halflings';
+         content: '\e135';
+         position: absolute;
+         left: 10px;
+      }
+
+      &:after {
+         position: absolute;
+         content: '';
+         right: 10px;
+         top: 50%;
+         margin-top: -3px;
+
+         display: block;
+         width: 0;
+         height: 0;
+         border: 5px solid transparent;
+
+         border-top-color: $gray-lighter;
+         border-top-color: $white-transparent;
+      }
+   }
+
+   &__list {
+      display: none;
+      padding: 8px 0;
+
+      position: relative;;
+      top: 2px;
+      right: 0;
+      left: 0;
+
+      background-color: $gray-blue;
+   }
+
+   &__item {
+      cursor: pointer;
+      padding: 0 15px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 2;
+
+      &:hover {
+         background-color: $gray-blue + 20;
+      }
+   }
+}
+
+.is-open {
+   .c-language__list {
+      display: block;
+   }
+}

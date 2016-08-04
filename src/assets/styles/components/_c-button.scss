@@ -1,0 +1,40 @@
+.c-button {
+   display: inline-block;
+   cursor: pointer;
+   margin: 0 0 10px;
+   padding: 10px 20px;
+   border: 1px solid $gray-light + 75;
+   border-radius: 3px;
+   font-size: 14px;
+   font-weight: 500;
+   color: $blue-dark;
+
+   &:hover {
+      color: $blue-dark + 25;
+   }
+
+   &:active,
+   &:focus {
+
+   }
+
+   &--block {
+      display: block;
+      margin: 0 auto;
+   }
+
+   &--success {
+      background-color: $green;
+      border-color: $green;
+      color: $white;
+
+      &:hover,
+      &:active,
+      &:focus {
+         background-color: $green - 25;
+         border-color: $green - 25;
+         color: $white;
+      }
+
+   }
+}

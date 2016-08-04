@@ -1,7 +1,9 @@
-/* glue: 0.11.1 hash: 8afb9eb94b */
 /*
- * Icons sprites
+ * Icons Sprite
+ * glue: 0.11.1 hash: 686e8b3bc3
+ *
  */
+.sprite-icons-m02,
 .sprite-icons-data,
 .sprite-icons-prototype,
 .sprite-icons-markup {
@@ -9,38 +11,58 @@
    background-repeat: no-repeat;
 }
 
-.sprite-icons-data {
+.sprite-icons-m02 {
    background-position: 0 0;
+   width: 60px;
+   height: 60px;
+}
+
+.sprite-icons-data {
+   background-position: -60px 0;
    width: 58px;
    height: 47px;
 }
 
 .sprite-icons-prototype {
-   background-position: 0 -47px;
+   background-position: 0 -60px;
    width: 54px;
    height: 50px;
 }
 
 .sprite-icons-markup {
-   background-position: -58px 0;
+   background-position: -54px -60px;
    width: 49px;
    height: 50px;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 1.0), screen and (min--moz-device-pixel-ratio: 1.0), screen and (-o-min-device-pixel-ratio: 100/100), screen and (min-device-pixel-ratio: 1.0), screen and (min-resolution: 1.0dppx) {
+   .sprite-icons-m02,
    .sprite-icons-data,
    .sprite-icons-prototype,
    .sprite-icons-markup {
       background-image: url('./../images/icons.png');
-      -webkit-background-size: 107px 97px;
-         -moz-background-size: 107px 97px;
-              background-size: 107px 97px;
+      -webkit-background-size: 118px 110px;
+         -moz-background-size: 118px 110px;
+              background-size: 118px 110px;
    }
 }
 
-/* glue: 0.11.1 hash: 5c817d77cb */
+@media screen and (-webkit-min-device-pixel-ratio: 2.0), screen and (min--moz-device-pixel-ratio: 2.0), screen and (-o-min-device-pixel-ratio: 200/100), screen and (min-device-pixel-ratio: 2.0), screen and (min-resolution: 2.0dppx) {
+   .sprite-icons-m02,
+   .sprite-icons-data,
+   .sprite-icons-prototype,
+   .sprite-icons-markup {
+      background-image: url('./../images/icons@2x.png');
+      -webkit-background-size: 118px 110px;
+      -moz-background-size: 118px 110px;
+      background-size: 118px 110px;
+   }
+}
+
 /*
- * Logos sprites
+ * Logos Sprite
+ * glue: 0.11.1 hash: 982ad4aaff
+ *
  */
 .sprite-logos-motorola,
 .sprite-logos-evernote,
@@ -97,7 +119,21 @@
    .sprite-logos-marvel {
       background-image: url('./../images/logos.png');
       -webkit-background-size: 241px 156px;
-      -moz-background-size: 241px 156px;
-      background-size: 241px 156px;
+         -moz-background-size: 241px 156px;
+              background-size: 241px 156px;
+   }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2.0), screen and (min--moz-device-pixel-ratio: 2.0), screen and (-o-min-device-pixel-ratio: 200/100), screen and (min-device-pixel-ratio: 2.0), screen and (min-resolution: 2.0dppx) {
+   .sprite-logos-motorola,
+   .sprite-logos-evernote,
+   .sprite-logos-brazzers,
+   .sprite-logos-adobe,
+   .sprite-logos-netflix,
+   .sprite-logos-marvel {
+      background-image: url('./../images/logos@2x.png');
+      -webkit-background-size: 241px 156px;
+         -moz-background-size: 241px 156px;
+              background-size: 241px 156px;
    }
 }

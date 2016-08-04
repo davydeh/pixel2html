@@ -52,7 +52,6 @@
    }
 
    &__feature-list {
-      list-style: none;
       margin: 0 0 30px;
       padding: 20px 0;
       text-align: left;
@@ -84,9 +83,43 @@
       }
    }
 
+   &--spotlight {
+      background-color: $blue-light;
+      color: $white;
+
+      .c-plan__name {
+         color: $white;
+      }
+
+      .c-plan__description,
+      .c-plan__microcopy,
+      .c-plan__copy {
+         color: $blue-lighter;
+      }
+
+      .c-plan__feature {
+         color: $white;
+      }
+
+      .c-plan__header,
+      .c-plan__details {
+         border-color: $blue-light + 25;
+      }
+   }
+
+   /*
+    * Breakpoints section
+    */
 
    @include respond-to('small') {
-      margin: 0;
+      margin: 0 auto 20px;
+      max-width: 60%;
+   }
+
+   @include respond-to('medium') {
+      margin: 0 auto;
+      max-width: none;
       border-radius: 0;
    }
+
 }

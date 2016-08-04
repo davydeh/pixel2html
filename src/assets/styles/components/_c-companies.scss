@@ -1,0 +1,50 @@
+.c-companies {
+   background: $gray-blue;
+   margin: 0 (-$default-margin);
+   padding: 100px $default-margin 60px;
+
+   &__title {
+      margin-bottom: 40px;
+   }
+
+   .c-headline-description__title {
+      color: $white;
+   }
+
+   .c-headline-description__description {
+      color: $gray-lighter;
+      color: $white-transparent;
+   }
+
+   &__cta {
+      margin-bottom: 80px;
+   }
+
+   &__copy {
+      margin-bottom: 30px;
+      color: $gray-lighter;
+      color: $white-transparent;
+      font-size: 14px;
+      font-weight: 500;
+   }
+
+   &__logo {
+      margin: 0 auto 30px;
+   }
+
+   @include respond-to('small') {
+      padding: 160px 20px 100px;
+
+      &__logo {
+         display: inline-block;
+         margin: 0 15px 30px;
+      }
+   }
+
+   @include respond-to('medium') {
+      &__logo {
+         display: inline-block;
+         margin: 0 15px;
+      }
+   }
+}

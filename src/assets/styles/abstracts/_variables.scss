@@ -48,15 +48,18 @@ $default-margin: 30px;
 
 // Overriding Slick arrows
 $slick-font-family: 'Glyphicons Halflings';
-$slick-arrow-color: black !default;
+$slick-arrow-color: black;
 
-$slick-next-character: "\e080" !default;
-$slick-prev-character: "\e079" !default;
+$slick-next-character: "\e080";
+$slick-prev-character: "\e079";
 
-$slick-dot-character: "\2022" !default;
+$slick-dot-character: "\2022";
 
-$slick-dot-size: 6px !default;
-$slick-opacity-default: 0.75 !default;
+$slick-dot-size: 6px;
+$slick-opacity-default: 0.75;
+
+// Animation variables
+$animation-duration-short: 0.15s;
 
 
 // Media queries
